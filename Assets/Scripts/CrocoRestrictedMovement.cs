@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RestrictedMovement : MonoBehaviour
+public class CrocoRestrictedMovement : MonoBehaviour
 {
     public float minX = -5f;
     public float maxX = 5f;
@@ -10,7 +10,7 @@ public class RestrictedMovement : MonoBehaviour
     public float maxY = 3f;
 
     private Rigidbody2D _rb;
-     
+
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();

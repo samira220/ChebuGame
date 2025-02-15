@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DestroyOrange : MonoBehaviour
 {
@@ -16,10 +17,12 @@ public class DestroyOrange : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Basket")) 
+        if (other.CompareTag("Basket"))
         {
+            //score++;
+            //scoreText.text = "—чет: " + score;
             Destroy(gameObject);
         }
-        
+
     }
 }

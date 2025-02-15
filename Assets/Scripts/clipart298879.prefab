@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 640018212450441199}
   - component: {fileID: -8154670714156441930}
   - component: {fileID: 3364943937397223313}
+  - component: {fileID: -1351447410816209028}
   m_Layer: 0
   m_Name: clipart298879
-  m_TagString: Untagged
+  m_TagString: Orange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,8 +170,20 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6994705596695768423}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9ebd30add88acc43b9d54c8842c03b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1351447410816209028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994705596695768423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641250b6d5b869e438463fcc66ec5d85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
