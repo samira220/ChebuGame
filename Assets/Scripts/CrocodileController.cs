@@ -41,7 +41,7 @@ public class CrocodileController : MonoBehaviour
     void FindClosestOrange()
     {
         GameObject[] oranges = GameObject.FindGameObjectsWithTag("Orange");
-        Debug.Log("Найдено апельсинов: " + oranges.Length); // Отладка
+        Debug.Log("Найдено апельсинов: " + oranges.Length); 
 
         if (oranges.Length == 0)
         {
@@ -65,7 +65,7 @@ public class CrocodileController : MonoBehaviour
 
         if (closestOrange != null)
         {
-            Debug.Log("Ближайший апельсин: " + closestOrange.name + ", дистанция: " + minDistance); // Отладка
+            Debug.Log("Ближайший апельсин: " + closestOrange.name + ", дистанция: " + minDistance); 
         }
     }
 
@@ -98,7 +98,7 @@ public class CrocodileController : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Score: " + score;
+            scoreText.text = "Счет к: " + score;
         }
     }
 }
